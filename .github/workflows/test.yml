@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: Test
         run: |
-          sudo apt-get install -y pcregrep
+          apt-get install -y pcregrep
           pcregrep --help
