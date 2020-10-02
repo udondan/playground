@@ -6,10 +6,9 @@ on:
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
       - name: Test
         run: |
-          sudo apt-get install -y pcregrep
           pcregrep --help
